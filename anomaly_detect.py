@@ -1,10 +1,10 @@
 import numpy as np
 import tensorflow as tf
-from anogan_model import Generator, Discriminator
+from helper.anogan_model import Generator, Discriminator
 from tensorflow import keras
 import matplotlib.pyplot as plt
 import cv2
-from dataload import preprocess_my_image
+from helper.dataload import preprocess_my_image
 from PIL import Image
 
 
