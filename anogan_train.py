@@ -1,8 +1,8 @@
 import os
 import numpy as np
 import tensorflow as tf
-from anogan_model import Generator, Discriminator
-from dataload import preprocess_my_image
+from helper.anogan_model import Generator, Discriminator
+from helper.dataload import preprocess_my_image
 import datetime
 from PIL import Image
 
